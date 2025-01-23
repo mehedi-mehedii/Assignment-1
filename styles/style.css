@@ -4,23 +4,27 @@
     font-style: normal;
     font-variation-settings: 
     "width" 100;
+    background-color: #F1F1F3;
 }
 *{
-    margin: none;
-    padding:none;
+    margin:0px;
+    padding:0px;
 }
 
 /* nav style */
 .nav{
      display: flex;
      align-items: center;
-     margin: 28px 160px;
+     margin: 31px auto;
      justify-content:space-between;
+     width: 1280px;
+     
 }
 .nav-head{
     font-size: 32px;
     font-weight: bold;
     color: #0E0E0E ;
+    
     
 }
 .nav-btn{
@@ -32,28 +36,32 @@
     background-color: white;
     border: 1px solid #006A50;
     
+    
 }
 /* banner style */
 .banner{
     background-color:#C6E4D6;
-    margin: 2px 160px;
+    margin: 2px auto;
     display: flex;
     border-radius: 24px;
      justify-content :space-around ;
     height: 560px;
     align-items: center;
+    width: 1280px;
 }
 
 .banner-subtitle{
     font-size: 24px;
     font-weight: 500;
     color: rgba(14, 14, 14, 50%);
+     margin-bottom: 16px;
    
 }
 .banner-title{
     font-size: 56px;
     font-weight:bold;
     color:#0E0E0E;
+    margin-bottom: 26px;
 
 }
 .banner-btn{
@@ -70,4 +78,57 @@
     display: flex;
     height: 400px;
     width: 400px;
+    margin-right: 60px;
+}
+.duddu{
+    height: 400px;
+    width: 400px;
+}
+/* card style */
+#card-box{
+    width: 1280px;
+    background-color: #F1F1F3 ;
+    margin: 80px auto;
+    height: 324px;
+ 
+}
+.card-head{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+    
+}
+.card-Basic{
+   
+    width: 302px;
+    height: 244px;
+    background-color:#FFFFFF;
+    border-radius: 16px;
+    border: 1px solid #D5D6D8;
+    
+
+}
+.card-image{
+   margin:  0px;
+   padding: 24px;
+}
+.card-title{
+    margin-left: 24px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color:rgba(14, 14, 14, 80%)
+    
+}
+.card-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 70%);
+    line-height: 20px;
+    margin-left: 24px;
+}
+.all-card{
+    display: flex;
+    justify-content: space-between;
 }
