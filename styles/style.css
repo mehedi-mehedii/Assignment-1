@@ -255,3 +255,120 @@
     border-radius: 18px;
    
 }
+.table {
+    border-collapse: collapse;
+
+}
+.table th,  td {
+    border: 2px solid white;
+
+
+}
+.table th {
+    /* border-collapse: collapse; */
+}
+
+
+
+/* recent section style */
+#recent{
+    width: 1280px;
+    height: 1406px;
+    margin: 80px auto;
+}
+.recent-head{
+    font-size:35px;
+    color: #0E0E0E;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.recenet-para{
+    font-size: 15px;
+    color: rgba(14, 14, 14, 70%);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+.all-recent{
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    display: flex;
+    width: 1280px;
+    height: 402px;
+    
+   
+}
+.satelight-image  img{
+    width: 408px;
+    height: 306px;
+    margin: 48px;
+    margin-left: 48px;
+    border-radius: 18px;
+    
+}
+.recent-right{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.satelite-head{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 80%);
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+.al{
+    margin-bottom: 22px;
+}
+.time{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 70%);
+
+}
+.sec-para{
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 70%);
+    line-height: 24px;
+
+
+}
+.recent-btn{
+    padding: 11PX 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color:#006A50;
+    /* margin-left: 24px; */
+    border-radius: 8px;
+    border: none;
+    
+
+}
+/* second card style */
+.sec-card{
+    width: 1280px;
+    height:402px;
+    background-color: #FFFFFF; 
+    margin-top: 24px;
+    border-radius: 18px;    
+}
+.card-maintain{
+    margin-left: 48px;
+    display: flex;
+}  
+.sec-image img{
+    display: flex;
+    width: 408px;
+    height: 306px;
+    margin: 48px 48px;
+    border-radius: 18px;
+} 
+.third-card{
+    margin-top: 24px;
+}
